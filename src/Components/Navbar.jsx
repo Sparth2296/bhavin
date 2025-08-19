@@ -122,23 +122,23 @@ const Navbar = () => {
             <header>
                 <nav>
                     <div className="main_title" onClick={() => nav("/")}>
-                        <img src="./public/icons/logo.svg" alt="Skill Will Win logo" />
+                        <img src="/icons/logo.svg" alt="Skill Will Win logo" />
                     </div>
 
                     {isLoggedIn ? (
                         <div className="dropdown_main" onClick={() => setIsOpen(!isOpen)}>
                             <div className="flex_box">
                                 <div className="school_icon_dropdown">
-                                    <img src="./public/icons/navbar_school_icon.svg" alt="" />
+                                    <img src="/icons/navbar_school_icon.svg" alt="" />
                                 </div>
                                 <div className="navbar_school_name_main">
                                     <p className="navbar_school_name">School Name</p>
                                 </div>
                                 <div className="dropdown_icon">
                                     {isOpen ? (
-                                        <img src="./public/icons/dropdown_up_icon.svg" alt="" />
+                                        <img src="/icons/dropdown_up_icon.svg" alt="" />
                                     ) : (
-                                        <img src="./public/icons/dropdown_down_icon.svg" alt="" />
+                                        <img src="/icons/dropdown_down_icon.svg" alt="" />
                                     )}
                                 </div>
                             </div>
@@ -175,7 +175,7 @@ const Navbar = () => {
                                 <p>Login into Your Account</p>
                             </div>
                             <div className="close_icon" onClick={() => setIsPopupOpen(false)}>
-                                <img src="./public/icons/x-close.svg" alt="" />
+                                <img src="/icons/x-close.svg" alt="" />
                             </div>
                         </div>
 
@@ -183,7 +183,7 @@ const Navbar = () => {
                         <label className="label_for_email">Email Address</label>
                         <div className="input_email_main">
                             <div className="email_icon">
-                                <img src="./public/icons/email_icon.svg" alt="" />
+                                <img src="/icons/email_icon.svg" alt="" />
                             </div>
                             <div className="input_type_email">
                                 <input
@@ -200,7 +200,7 @@ const Navbar = () => {
                         <label className="label_for_email">Password</label>
                         <div className="input_email_main">
                             <div className="email_icon">
-                                <img src="./public/icons/password_icon.svg" alt="" />
+                                <img src="/icons/password_icon.svg" alt="" />
                             </div>
                             <div className="input_type_email">
                                 <input
@@ -219,8 +219,8 @@ const Navbar = () => {
                                 <img
                                     src={
                                         showPassword
-                                            ? "./public/icons/showPassword_icon.svg"
-                                            : "./public/icons/hide_Password.svg"
+                                            ? "/icons/showPassword_icon.svg"
+                                            : "/icons/hide_Password.svg"
                                     }
                                     alt="Toggle password visibility"
                                 />
@@ -259,7 +259,7 @@ const Navbar = () => {
                                 <p>Change Your Password</p>
                             </div>
                             <div className="close_icon" onClick={() => setIsResetOpen(false)}>
-                                <img src="./public/icons/x-close.svg" alt="" />
+                                <img src="/icons/x-close.svg" alt="" />
                             </div>
                         </div>
 
@@ -267,7 +267,7 @@ const Navbar = () => {
                         <label className="label_for_email">Current Password</label>
                         <div className="input_email_main">
                             <div className="email_icon">
-                                <img src="./public/icons/password_icon.svg" alt="" />
+                                <img src="/icons/password_icon.svg" alt="" />
                             </div>
                             <div className="input_type_email">
                                 <input
@@ -286,8 +286,8 @@ const Navbar = () => {
                                 <img
                                     src={
                                         showCurrentPassword
-                                            ? "./public/icons/showPassword_icon.svg"
-                                            : "./public/icons/hide_Password.svg"
+                                            ? "/icons/showPassword_icon.svg"
+                                            : "/icons/hide_Password.svg"
                                     }
                                     alt="Toggle current password visibility"
                                 />
@@ -298,7 +298,7 @@ const Navbar = () => {
                         <label className="label_for_email">New Password</label>
                         <div className="input_email_main">
                             <div className="email_icon">
-                                <img src="./public/icons/password_icon.svg" alt="" />
+                                <img src="/icons/password_icon.svg" alt="" />
                             </div>
                             <div className="input_type_email">
                                 <input
@@ -317,8 +317,8 @@ const Navbar = () => {
                                 <img
                                     src={
                                         showNewPassword
-                                            ? "./public/icons/showPassword_icon.svg"
-                                            : "./public/icons/hide_Password.svg"
+                                            ? "/icons/showPassword_icon.svg"
+                                            : "/icons/hide_Password.svg"
                                     }
                                     alt="Toggle new password visibility"
                                 />
@@ -329,7 +329,7 @@ const Navbar = () => {
                         <label className="label_for_email">Confirm Password</label>
                         <div className="input_email_main">
                             <div className="email_icon">
-                                <img src="./public/icons/password_icon.svg" alt="" />
+                                <img src="/icons/password_icon.svg" alt="" />
                             </div>
                             <div className="input_type_email">
                                 <input
@@ -348,8 +348,8 @@ const Navbar = () => {
                                 <img
                                     src={
                                         showConfirmPassword
-                                            ? "./public/icons/showPassword_icon.svg"
-                                            : "./public/icons/hide_Password.svg"
+                                            ? "/icons/showPassword_icon.svg"
+                                            : "/icons/hide_Password.svg"
                                     }
                                     alt="Toggle confirm password visibility"
                                 />
@@ -375,7 +375,7 @@ const Navbar = () => {
                                 setIsForgotOpen(false);
                                 setStep(1);
                             }}>
-                                <img src="./public/icons/x-close.svg" alt="" />
+                                <img src="/icons/x-close.svg" alt="" />
                             </div>
                         </div>
 
@@ -385,7 +385,7 @@ const Navbar = () => {
                                 <label className="label_for_email">Email Address</label>
                                 <div className="input_email_main">
                                     <div className="email_icon">
-                                        <img src="./public/icons/email_icon.svg" alt="" />
+                                        <img src="/icons/email_icon.svg" alt="" />
                                     </div>
                                     <div className="input_type_email">
                                         <input
@@ -410,7 +410,7 @@ const Navbar = () => {
                                 <label className="label_for_email">Enter OTP</label>
                                 <div className="input_email_main">
                                     <div className="email_icon">
-                                        <img src="./public/icons/password_icon.svg" alt="" />
+                                        <img src="/icons/password_icon.svg" alt="" />
                                     </div>
                                     <div className="input_type_email">
                                         <input
@@ -436,7 +436,7 @@ const Navbar = () => {
                                 <label className="label_for_email">New Password</label>
                                 <div className="input_email_main">
                                     <div className="email_icon">
-                                        <img src="./public/icons/password_icon.svg" alt="" />
+                                        <img src="/icons/password_icon.svg" alt="" />
                                     </div>
                                     <div className="input_type_email">
                                         <input
@@ -455,8 +455,8 @@ const Navbar = () => {
                                         <img
                                             src={
                                                 showForgotNewPassword
-                                                    ? "./public/icons/showPassword_icon.svg"
-                                                    : "./public/icons/hide_Password.svg"
+                                                    ? "/icons/showPassword_icon.svg"
+                                                    : "/icons/hide_Password.svg"
                                             }
                                             alt="Toggle new password visibility"
                                         />
@@ -467,7 +467,7 @@ const Navbar = () => {
                                 <label className="label_for_email">Confirm Password</label>
                                 <div className="input_email_main">
                                     <div className="email_icon">
-                                        <img src="./public/icons/password_icon.svg" alt="" />
+                                        <img src="/icons/password_icon.svg" alt="" />
                                     </div>
                                     <div className="input_type_email">
                                         <input
@@ -486,8 +486,8 @@ const Navbar = () => {
                                         <img
                                             src={
                                                 showForgotConfirmPassword
-                                                    ? "./public/icons/showPassword_icon.svg"
-                                                    : "./public/icons/hide_Password.svg"
+                                                    ? "/icons/showPassword_icon.svg"
+                                                    : "/icons/hide_Password.svg"
                                             }
                                             alt="Toggle confirm password visibility"
                                         />
