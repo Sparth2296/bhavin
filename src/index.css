@@ -1,0 +1,46 @@
+@font-face {
+  font-family:noto-black;
+  src: url("/Font/NotoSerifGujarati-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family:noto-semibold;
+  src: url("/Font/NotoSerifGujarati-SemiBold.ttf");
+}
+@font-face {
+  font-family:noto-bold;
+  src: url("/Font/NotoSerifGujarati-Bold.ttf");
+}
+
+
+@font-face {
+  font-family:rasa-medium;
+  src: url("/Font/Rasa-Medium.ttf");
+}
+@font-face {
+  font-family:rasa-semibold;
+  src: url("/Font/Rasa-SemiBold.ttf");
+}
+
+@font-face {
+  font-family:franklin;
+  src: url("/Font/fonnts.com-FranklinGothic_URW_Demi.otf");
+}
+@font-face {
+  font-family:rasa_regular;
+  src: url("../public/Font/Rasa-Regular.ttf");
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  align-items: center;
+}

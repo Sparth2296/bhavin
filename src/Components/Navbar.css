@@ -1,0 +1,332 @@
+@font-face {
+  font-family: franklin-demi;
+  src: url("/Font/fonnts.com-FranklinGothic_URW_Demi.otf");
+}
+@font-face {
+  font-family: noto-black;
+  src: url("/Font/NotoSerifGujarati-Black.ttf");
+}
+
+@font-face {
+  font-family: noto-semibold;
+  src: url("/Font/NotoSerifGujarati-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: rasa_regular;
+  src: url("./Font/Rasa-Regular.ttf");
+}
+@font-face {
+  font-family: rasa-semibold;
+  src: url("/Font/Rasa-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: rasa-medium;
+  src: url("/Font/Rasa-Medium.ttf");
+}
+header {
+  width: 100%;
+  height: auto;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #0000001f;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 34px;
+}
+
+.main_title {
+  width: 200px;
+  height: 24px;
+  cursor: pointer;
+}
+.main_title > img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar_login_button {
+  width: 131px;
+  height: 40px;
+  border: none;
+  background-color: #086885;
+  border-radius: 10px;
+  color: #ffffff;
+  line-height: 14px;
+  font-weight: 600;
+  font-family: franklin-demi;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* Overlay background when popup is open */
+.popup_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Popup box */
+.popup {
+  position: relative;
+  width: 440px;
+  height: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  color: black;
+}
+
+.login_heading_main {
+  width: 100%;
+  height: 32px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading_title {
+  width: 350px;
+  height: 32px;
+  /* border: 1px solid red; */
+}
+
+.heading_title > p {
+  font-size: 24px;
+  line-height: 32px;
+  color: #161616;
+  font-weight: 900;
+  font-family: noto-black;
+}
+.close_icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  /* border: 1px solid blue; */
+}
+.close_icon > img {
+  width: 100%;
+  height: 100%;
+}
+.info {
+  width: 300px;
+  height: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #828282;
+  font-size: 16px;
+  margin-top: 6px;
+  font-family: rasa_regular;
+}
+.label_for_email {
+  font-weight: 600;
+  margin-top: 20px;
+  width: 317px;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  /* border: 1px solid black;   */
+  color: #161616;
+  font-family: rasa-semibold;
+}
+.input_email_main {
+  width: 100%;
+  height: 44px;
+  background: #f9f9f9;
+  margin-top: 6px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  border: 1px solid #0000001f;
+}
+.email_icon {
+  width: 20px;
+  height: 20px;
+  /* border: 1px solid black; */
+}
+.email_icon > img {
+  width: 100%;
+  height: 100%;
+}
+
+.input_type_email {
+  width: 83.5%;
+  height: 30px;
+  /* border: 1px solid black; */
+  margin-left: 12px;
+}
+
+.input_type_email > input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: #828282;
+  font-size: 16px;
+  background-color: transparent;
+  font-family: rasa-medium;
+}
+
+.input_type_email > input::placeholder {
+  color: #828282;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.show_password_icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+.show_password_icon > img {
+  width: 100%;
+  height: 100%;
+}
+
+.login_button_form {
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: #086885;
+}
+.login_button_form > button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 2%;
+  cursor: pointer;
+  font-family: franklin-demi;
+}
+.reset_password {
+  width: 100%;
+  height: 20px;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+
+.reset_password > p {
+  text-align: center;
+  color: #828282;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: asa-medium;
+}
+
+.reset_password > p > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ab541f;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: rasa-semibold;
+}
+
+.flex_box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  cursor: pointer;
+  flex-shrink: 0;
+  /* border: 1px solid black; */
+}
+
+.dropdown_main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+.school_icon_dropdown {
+  width: 28px;
+  height: 28px;
+  /* border: 1px solid orange; */
+  flex-shrink: 0;
+}
+.school_icon_dropdown > img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar_school_name {
+  font-family: franklin;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #161616;
+  margin-left: 12px;
+}
+
+.dropdown_icon {
+  width: 20px;
+  height: 20px;
+  /* border: 1px solid black; */
+  margin-left: 10px;
+}
+.dropdown_icon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dropdown-menu {
+  width: 173px;
+  height: 88px;
+  background-color: #ffffff;
+  /* margin-top: 300px; */
+  margin-top: 42px;
+  position: absolute;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #0000001f;
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.08);
+}
+.dropdown_change_password {
+  font-family: rasa-medium;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #161616;
+  letter-spacing: 1px;
+}
+.dropdown_logout_password {
+  font-family: rasa-medium;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ff0000;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+
+/* reset_password  */
