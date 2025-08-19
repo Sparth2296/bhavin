@@ -40,7 +40,7 @@ const Home = () => {
                                         <p>Skill Will Win</p>
                                     </div>
                                     <div className="catagory_filds_left_side1_icon">
-                                        <img src="/icons/left_1.svg" alt="" />
+                                        <img src="/left_1.svg" alt="" />
                                     </div>
                                 </div>
                                 <p className='catagory_filds_left_side1_sub_heading'>
@@ -62,7 +62,7 @@ const Home = () => {
                                         <p>બહાદુર બેટી</p>
                                     </div>
                                     <div className="catagory_filds_left_side1_icon">
-                                        <img src="/icons/left_2.svg" alt="" />
+                                        <img src="/left_2.svg" alt="" />
                                     </div>
                                 </div>
                                 <p className='catagory_filds_left_side1_sub_heading'>
@@ -86,7 +86,7 @@ const Home = () => {
                                         <p>લાઈફ લેશન ફ્રોમ લિજેન્ડ</p>
                                     </div>
                                     <div className="catagory_filds_left_side1_icon">
-                                        <img src="/icons/left_1.svg" alt="" />
+                                        <img src="/left_1.svg" alt="" />
                                     </div>
                                 </div>
                                 <p className='catagory_filds_left_side1_sub_heading'>
@@ -110,7 +110,7 @@ const Home = () => {
                                         <p>મેં ભી ગાંધી</p>
                                     </div>
                                     <div className="catagory_filds_left_side1_icon">
-                                        <img src="/icons/right_1.svg" alt="" />
+                                        <img src="/right_1.svg" alt="" />
                                     </div>
                                 </div>
                                 <p className='catagory_filds_left_side1_sub_heading'>
@@ -134,7 +134,7 @@ const Home = () => {
                                         <p>તૈયારી જીત કી</p>
                                     </div>
                                     <div className="catagory_filds_left_side1_icon">
-                                        <img src="/icons/right_2.svg" alt="" />
+                                        <img src="/right_2.svg" alt="" />
                                     </div>
                                 </div>
                                 <p className='catagory_filds_left_side1_sub_heading'>
@@ -157,7 +157,7 @@ const Home = () => {
                                         <p>એક્ટિવિટી કેલેન્ડર</p>
                                     </div>
                                     <div className="catagory_filds_left_side1_icon">
-                                        <img src="/icons/right_1.svg" alt="" />
+                                        <img src="/right_1.svg" alt="" />
                                     </div>
                                 </div>
                                 <p className='catagory_filds_left_side1_sub_heading'>
@@ -177,7 +177,7 @@ const Home = () => {
                     <div className="helpline_main_containe_main">
 
                         <div className="helpline_icon_main">
-                            <img src="/icons/helpline.svg" alt="" />
+                            <img src="/helpline.svg" alt="" />
                         </div>
 
                         <div className="helpline_number_main">
@@ -247,7 +247,7 @@ const Home = () => {
                             <div className="school_details_main">
                                 <div className="school_icon_and_school_no">
                                     <div className="school_icon">
-                                        <img src="/icons/school_icon.svg" alt="" />
+                                        <img src="/school_icon.svg" alt="" />
                                     </div>
                                     <div className="school_no">
                                         <p>1,090</p>
@@ -263,7 +263,7 @@ const Home = () => {
 
                                 <div className="school_icon_and_school_no">
                                     <div className="school_icon">
-                                        <img src="/icons/student_icon.svg" alt="" />
+                                        <img src="/student_icon.svg" alt="" />
                                     </div>
                                     <div className="school_no">
                                         <p className='student_no_color'>2,905</p>
@@ -294,7 +294,7 @@ const Home = () => {
                             <div className="email_details_main">
 
                                 <div className="detail_email_icon">
-                                    <img src="/icons/email_contect.svg" alt="" />
+                                    <img src="/email_contect.svg" alt="" />
                                 </div>
 
                                 <p className='contect_email'>skillwillwin@gmail.com</p>
@@ -303,7 +303,7 @@ const Home = () => {
                             <div className="email_details_main">
 
                                 <div className="detail_email_icon">
-                                    <img src="/icons/locations_icon.svg" alt="" />
+                                    <img src="/locations_icon.svg" alt="" />
                                 </div>
 
                                 <p className='contect_addresh'>Karmayog consultancy, 1st floor
