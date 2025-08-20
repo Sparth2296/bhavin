@@ -465,7 +465,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
+/* 
 @media (max-width : 1440px) {
   .warapper {
     width: 1280px;
@@ -752,4 +752,4 @@
     font-size: 24px;
   }
   
-}
+} */
