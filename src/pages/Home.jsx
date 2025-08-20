@@ -201,7 +201,7 @@ const Home = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <img src="/image/patnar_logo.svg" alt="" className='patnar_logo' />
+                                    <img src="/patnar_logo.svg" alt="" className='patnar_logo' />
                                 </a>
 
                             </div>
@@ -214,7 +214,7 @@ const Home = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <img src="/image/patnar_logo.svg" alt="" className='patnar_logo' />
+                                    <img src="/patnar_logo.svg" alt="" className='patnar_logo' />
                                 </a>
 
                             </div>
@@ -227,7 +227,7 @@ const Home = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <img src="/image/patnar_logo.svg" alt="" className='patnar_logo' />
+                                    <img src="/patnar_logo.svg" alt="" className='patnar_logo' />
                                 </a>
 
                             </div>
